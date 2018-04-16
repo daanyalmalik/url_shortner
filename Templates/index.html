@@ -336,8 +336,17 @@
             text: value};
             $.getJSON('http://127.0.0.1:5000/getURL/'+value, 
 				function(data, textStatus, jqXHR) {
-                    $("#urlTable").show(15);
-                    CopyToClip(data,value)
+                    
+                    if(data=="false")
+                    {
+                        alert("Invalid URL")
+                    }
+                    else
+                    {
+                        $("#urlTable").show(15);
+                        CopyToClip(data,value)
+                    }
+                   
 							
 				}
 			)
