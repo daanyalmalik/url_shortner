@@ -1,5 +1,5 @@
-# url_shortner
-A lightweight URL shortener written in Python. The program generates tiny URLs from long and extesive ones, saving the newly generated URLs to an SQLite Database for fast lookup and persistant storage. The program uses the popular Python web development framework called Flask, apart from that it uses HTML, JavaScript, and CSS for the front end.
+# Url Shortner
+A lightweight URL shortener written in Python. The program generates short URLs from long and extensive ones, saving the newly generated URLs to an SQLite Database for fast lookup and persistant storage. The program uses the popular Python web development framework called Flask. Apart from that it uses HTML, JavaScript, and CSS for the front end.
 
 
 ## Getting Started
@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-Pyhton 2.7
+Python 2.7
 Flask - Python Web development framework
 validators (library) - Python Data Validation for Humans™.
 ```
@@ -34,6 +34,7 @@ pip install Flask
 ## Running the app
 
 1). Download and unzip all the project files to a folder, do not forget to unzip "static.zip" to the same directory as it    contains some much needed libraries.
+
 2). Open up a command terminal at the root of the project and type:
 ```
 python Xgrid_task.py
